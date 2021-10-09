@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class='jogo'></div>
+    <button class="btn" onclick="tic_tac_toe.recomece()" title="Reinicie o jogo">Recomece</button>
+
+    <script src="js/jogo-da-velha.js"></script>
+    <script>
+        tic_tac_toe.init( document.querySelector('.jogo') );
+        tic_tac_toe.inicie();
+    </script>
+    
+</body>
+</html>
